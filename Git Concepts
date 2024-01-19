@@ -1,0 +1,35 @@
+Concepts of Git:
+Repository (Repo): A storage space where your project and its history are kept.
+Commit: A snapshot of changes made to the code, accompanied by a commit message describing the changes.
+Branch: A parallel version of the repository, allowing for isolated development and experimentation.
+Merge: Combining changes from one branch into another.
+Pull Request (PR): Proposed changes that you submit for review and potential inclusion.
+
+Basic Git Commands:
+git init: Initializes a new Git repository.
+git add <filename>: Adds changes to be committed.
+git commit -m "Commit message": Records changes to the repository.
+git status: Displays the state of your working directory.
+git branch: Lists all local branches.
+git merge <branch>: Merges changes from the specified branch into the current branch.
+git pull: Fetches changes from a remote repository and merges them into the current branch.
+git push: Sends local changes to a remote repository.
+
+Git Hosting Platforms:
+GitHub: A web-based platform that hosts Git repositories and provides collaboration features.
+GitLab: Similar to GitHub but offers additional features, including continuous integration.
+Bitbucket: Provides hosting for projects that use Mercurial or Git, with features like Bitbucket Pipelines for CI/CD.
+
+Industrial Practices:
+Branching Strategies: Develop features in separate branches, merging into the main branch upon completion.
+Commit Messages: Write clear, concise messages describing the purpose of each commit.
+Code Reviews: Use PRs for peer review to maintain code quality.
+
+Cloning a Repo to Local:
+Copy the repository URL.
+Open a terminal and run git clone <repository_url>.
+
+Resources:
+Pro Git Book: https://git-scm.com/book/en/v2
+GitHub Learning Lab: https://github.com/apps/github-learning-lab
+BitBucket Documentation: https://bitbucket.org/product/guides
